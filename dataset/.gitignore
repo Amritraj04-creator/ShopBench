@@ -1,0 +1,32 @@
+# ============================================================
+# ShopBench Dataset Generator
+# ============================================================
+
+# Node.js dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Generated datasets
+output/
+
+# Generated credentials
+generated_credentials.csv
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
